@@ -1,0 +1,37 @@
+* {   
+    font: 'Avenir Next', 'Hiragino Sans'
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* リンクの下線を消す */
+a {
+    text-decoration:none;
+    color: #2d3133;
+}
+
+/* サイト上部 */
+header {
+    height:90px;
+    background-color:#52bae4;
+    color:#fff;
+  }
+  /* ロゴ左*/
+  .head-left {
+    padding:20px 40px;
+    font-size:36px;
+    float:left;
+  }
+  /* お問い合わせとか*/
+  il {
+    list-style-type: none;
+    float:right;
+    padding:33px 20px;
+  }
